@@ -46,7 +46,10 @@ a:hover{
     color: white;
     background-color: #ff4757;
 } 
-
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+}
 /* Navbar section starts here*/
 .logo{
     width: 10%;
@@ -82,3 +85,13 @@ a:hover{
     margin-bottom: 3%;
 }
 
+/* categories section starts here*/
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    border: black 1px solid;
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
