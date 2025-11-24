@@ -14,6 +14,9 @@
 .img-responsive {
     width: 100%;
 }
+.img-curve{
+    border-radius: 15px;
+}
 .text-right{
     text-align: right;
 }
@@ -50,6 +53,26 @@ h2{
     color: #2f3542;
     font-size: 2rem;
 }
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+    }
+.float-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+ }   
+.text-white{
+    color: white;
+ }
+text-center{
+    text-align: center;
+ }
+.text-right{
+    text-align: right;
+ }
 /* Navbar section starts here*/
 .logo{
     width: 10%;
@@ -94,4 +117,50 @@ h2{
     width: 28%;
     float: left;
     margin: 2%;
+}
+.box-3 img {
+    width: 100%;
+    height: 15rem;;       /* choose any height */
+    object-fit: cover;   /* crops images to fit nicely */
+    border-radius: 15px;
+}
+
+/* food menu section starts here*/
+.food-menu{
+    background-color: #ececec;
+    padding: 4%;
+}
+
+.food-menu-box{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;;
+    border-radius: 15px;
+    background-color: white;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+    font-weight: bold;
+}
+.food-menu-img img {
+    width: 100%;
+    height: 10rem;   /* set to any height you like */
+    object-fit: cover;
+    border-radius: 10px;
 }
