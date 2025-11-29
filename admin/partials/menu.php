@@ -1,4 +1,5 @@
 <?php include('../config/constants.php') ?>
+<?php include('login-check.php') ?>
 <html>
 <head>
     <title>Food Order Website - Home Page </title>
