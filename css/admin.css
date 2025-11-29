@@ -107,3 +107,85 @@ table tr td{
     color: white;
     padding: 3%;
 }
+/* css for login page */
+/*.login{
+    border: 1px solid gray;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
+    */
+
+/* ========== ENHANCED LOGIN STYLES ========== 
+.login {
+    border: 2px solid #ff4757;
+    width: 35%;
+    margin: 10% auto;
+    padding: 40px 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.login h1 {
+    color: #ff4757;
+    margin-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+    border-color: #ff6b81;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 107, 129, 0.3);
+}
+
+.login input[type="submit"] {
+    width: 50%;
+    padding: 12px;
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #ff4757;
+}
+
+.login a {
+    color: #ff6b81;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: #ff4757;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f1f2f6;
+}
+    */
+    
