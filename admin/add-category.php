@@ -11,7 +11,7 @@
           echo $_SESSION['add'];
           unset($_SESSION['add']);
          }
-         
+
          if(isset($_SESSION['upload']))
          {
           echo $_SESSION['upload'];
@@ -90,6 +90,15 @@
                 //upload the image
                 //to upload image we need image name, source path and destination path
                 $image_name = $_FILES['image']['name'];
+
+                //Auto Rename our Image
+                //get the extension of our image (jpg, png, gif, etc) e.g. food1.jpg
+                $ext = end(explode('.', $image_name));
+
+                //rename the image
+                $image_name = "Food_Category_".rand(000, 999).'.'.$ext;//e.g. Food_Category_657.jpg
+
+                //source path and destination path 
                 $source_path = $_FILES['image']['tmp_name'];
                 $destination_path = "../images/category/".$image_name;
 
